@@ -16,7 +16,6 @@ body {
 
 /* Desktop styles */
 .head {
-    background-color: rgb(0, 255, 26);
     padding: 30px 0;
     width: 50%;
     height: 50vh;
@@ -25,18 +24,21 @@ body {
     justify-content: center;
 }
 
+
 h1 {
     display: grid;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
 }
+
 
 #Lable1 {
     font-weight: bolder;
     font-size: 3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .VatCalc {
     background-color: rgb(255, 255, 255);
@@ -47,11 +49,13 @@ h1 {
     justify-content: center;
 }
 
+
 .lable {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 input[type=text] {
     padding: 10px;
@@ -61,11 +65,13 @@ input[type=text] {
     font-size: 1rem;
 }
 
+
 .btn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 button {
     font-size: 1rem;
@@ -74,6 +80,7 @@ button {
     width: 40%;
     box-shadow: 2px 3px 5px black;
 }
+
 
 .Final {
     background-color: black;
@@ -87,12 +94,13 @@ button {
     box-shadow: 2px 8px 20px green, 2px 6px 20px white;
 }
 
+
 /* Responsive styles for iPhones */
 @media only screen and (max-width: 480px) {
     .head {
         padding: 20px 0;
         width: 90%;
-        height: auto;
+        height: 100vh;
     }
 
     h1 {
@@ -105,7 +113,7 @@ button {
 
     .VatCalc {
         width: 90%;
-        height: auto;
+        height: 100vh;
     }
 
     input[type=text] {
